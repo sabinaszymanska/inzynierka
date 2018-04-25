@@ -1,0 +1,48 @@
+#grid {
+    border: 1px solid #eee;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#grid div {
+    width: 20px;
+    height: 20px;
+}
+
+#grid div.active {
+    background: #999;
+}
+
+#columns {
+    display: flex;
+}
+
+#columns > div {
+    width: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+    line-height: 22px;
+}
+
+#rows {
+    /*display: flex;*/
+}
+
+#rows > div {
+    height: 20px;
+    display: flex;
+    justify-content: flex-end;
+    /* text-align: center; */
+    /* line-height: 22px; */
+}
+
+#rows > div > div {
+    width: 20px;
+}
+
+
+
+
